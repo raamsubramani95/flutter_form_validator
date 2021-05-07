@@ -1,8 +1,7 @@
 name: flutter_form_validator
-description: Simplest form validation library for flutter's form field widgets
+description: This package contains code for flutter form validation widgets.
 version: 0.0.1
-author: Ramkumar S <raamsubramani@gmail.com>
-homepage: https://github.com/raamsubramani/flutter_form_validator.git
+homepage: https://github.com/raamsubramani95/flutter_form_validator
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

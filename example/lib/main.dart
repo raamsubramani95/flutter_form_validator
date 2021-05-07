@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               TextFormField(
-                validator: ValidationBuilder().lname().required().maxLength(50).build(),
+                validator: ValidationBuilder().email().required().maxLength(50).build(),
                 decoration: InputDecoration(labelText: 'Email'),
               ),
               SizedBox(height: 30),
@@ -56,8 +56,8 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _validate,
-        tooltip: 'Next',
-        child: Icon(Icons.arrow_forward),
+        tooltip: 'okay',
+        child: Icon(Icons.done),
       ),
     );
   }
